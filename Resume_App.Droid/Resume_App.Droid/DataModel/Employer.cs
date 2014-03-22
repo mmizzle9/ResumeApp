@@ -15,7 +15,7 @@ namespace Resume_App.Droid.DataModel
 {
     public class Employer
     {
-        public Drawable Icon { get; set; }
+        public string IconPath { get; set; }
         public string Name { get; set; }
         public string Title { get; set; }
         public string Location { get; set; }

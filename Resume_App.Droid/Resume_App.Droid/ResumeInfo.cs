@@ -24,7 +24,7 @@ namespace Resume_App.Droid
                 Title = "App Developer",
                 DateWorked = "11/2012-Current",
                 Location = "Bowling Green, KY",
-                Icon = Drawable.CreateFromPath("file:///android_assets/PlaceholderIcon.png"),
+                IconPath = "PlaceholderIcon",
             }
         };
     }
