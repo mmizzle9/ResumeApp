@@ -5,11 +5,48 @@
     android:layout_height="fill_parent"
     android:background="@android:color/white">
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:textSize="18dp" />
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="Mitchell Michael" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:text="260 Walnut Creek Dr. A-3" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:text="Bowling Green, KY 42101" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:text="Mitchell.Michael877@topper.wku.edu" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:text="(270) 836-1978" />
     <Button
+        android:id="@+id/MainEducation"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
@@ -17,6 +54,55 @@
         android:layout_marginTop="10dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:textColor="@android:color/black"
         android:textSize="16dp"
         android:text="Education" />
+    <Button
+        android:id="@+id/MainEducation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:text="Employment" />
+    <Button
+        android:id="@+id/MainEducation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:text="Languages and Tools" />
+    <Button
+        android:id="@+id/MainEducation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:text="Projects" />
+    <Button
+        android:id="@+id/MainEducation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:text="Highlights" />
 </LinearLayout>
