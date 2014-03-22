@@ -20,6 +20,12 @@ namespace Resume_App.Droid
             SetContentView(Resource.Layout.Main);
 
             ActionBar.Title = "My Resume";
+
+            var employment = FindViewById<Button>(Resource.Id.MainEducation);
+            employment.Click += delegate
+            {
+                StartActivity(typeof(EmploymentActivity));
+            };
         }
     }
 }
