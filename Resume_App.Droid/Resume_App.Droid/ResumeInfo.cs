@@ -61,5 +61,36 @@ namespace Resume_App.Droid
                 IconPath = Resource.Drawable.PlaceholderIcon,
             }
         };
+
+        public static List<string> Experience = new List<string>
+        {
+            "C#",
+            "Java",
+            "Android",
+            "iOS / WPF Application Development",
+            "UI Design",
+            "SQLite",
+            "Linq",
+            "Localization",
+            "X(Cross)Platform Development",
+            "Asynchronous Programming",
+            "HTML",
+            "Ruby",
+            "Json",
+            "Database Design",
+            "Javascript",
+            "RESTful Design",
+        };
+
+        public static List<string> Tools = new List<string>
+        {
+            "Visual Studio",
+            "Eclipse",
+            "XCode",
+            "Xamarin Studio",
+            "SQL Expert Professional",
+            "Github",
+            "SVN",
+        };
     }
 }

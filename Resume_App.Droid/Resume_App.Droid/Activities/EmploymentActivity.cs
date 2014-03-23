@@ -22,6 +22,12 @@ namespace Resume_App.Droid
 
             SetContentView(Resource.Layout.Employment);
 
+            var home = FindViewById(Android.Resource.Id.Home);
+            home.Click += delegate
+            {
+                OnBackPressed();
+            };
+
             ActionBar.Title = "Employment";
             ActionBar.SetDisplayHomeAsUpEnabled(true);
 

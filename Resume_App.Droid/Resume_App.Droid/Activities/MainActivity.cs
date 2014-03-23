@@ -21,10 +21,22 @@ namespace Resume_App.Droid
 
             ActionBar.Title = "My Resume";
 
-            var employment = FindViewById<Button>(Resource.Id.MainEducation);
+            var education = FindViewById<Button>(Resource.Id.MainEducation);
+            education.Click += delegate
+            {
+                StartActivity(typeof(EducationActivity));
+            };
+
+            var employment = FindViewById<Button>(Resource.Id.MainEmployment);
             employment.Click += delegate
             {
                 StartActivity(typeof(EmploymentActivity));
+            };
+
+            var languages = FindViewById<Button>(Resource.Id.MainLanguages);
+            languages.Click += delegate
+            {
+                StartActivity(typeof(LanguagesActivity));
             };
         }
     }

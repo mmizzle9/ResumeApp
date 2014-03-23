@@ -57,13 +57,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\LanguagesActivity.cs" />
     <Compile Include="Adapters\EducationAdapter.cs" />
     <Compile Include="Adapters\EmploymentAdapter.cs" />
     <Compile Include="DataModel\Employer.cs" />
     <Compile Include="DataModel\School.cs" />
-    <Compile Include="EducationActivity.cs" />
-    <Compile Include="EmploymentActivity.cs" />
-    <Compile Include="MainActivity.cs" />
+    <Compile Include="Activities\EducationActivity.cs" />
+    <Compile Include="Activities\EmploymentActivity.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResumeInfo.cs" />
