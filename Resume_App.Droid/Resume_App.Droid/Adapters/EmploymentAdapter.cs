@@ -34,7 +34,7 @@ namespace Resume_App.Droid.Adapters
             var item = _employers[position];
 
             var image = convertView.FindViewById<ImageView>(Resource.Id.EmployerItemImage);
-            image.SetImageDrawable( BitmapDrawable.CreateFromPath("file:///android_assets/" + item.IconPath) );
+            image.SetImageDrawable(Context.Resources.GetDrawable( Context.Resources.GetIdentifier(item.Name, "drawable", Context.PackageName)));
 
             var line1 = convertView.FindViewById<TextView>(Resource.Id.EmployerItemLine1);
             line1.Text = item.DateWorked + ": " + item.Title;

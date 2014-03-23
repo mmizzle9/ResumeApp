@@ -20,6 +20,8 @@ namespace Resume_App.Droid
         {
             base.OnCreate(bundle);
 
+            SetContentView(Resource.Layout.Employment);
+
             ActionBar.Title = "Employment";
             ActionBar.SetDisplayHomeAsUpEnabled(true);
 
