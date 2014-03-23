@@ -83,8 +83,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
-    <AndroidAsset Include="Assets\PlaceholderIcon.png" />
-    <AndroidResource Include="Resources\Drawable\PlaceholderIcon.png" />
+    <AndroidResource Include="Resources\Drawable\MicroBudget.png" />
+    <AndroidResource Include="Resources\Drawable\Wku.jpg" />
+    <AndroidResource Include="Resources\Drawable\GattonAcademy.jpg" />
+    <AndroidResource Include="Resources\Drawable\Hitcents.png" />
+    <AndroidResource Include="Resources\Drawable\Shogun.png" />
+    <AndroidResource Include="Resources\Drawable\Tow.jpg" />
+    <AndroidResource Include="Resources\Drawable\Placeholder.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\EducationItem.axml">

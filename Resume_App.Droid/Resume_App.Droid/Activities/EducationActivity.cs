@@ -28,7 +28,7 @@ namespace Resume_App.Droid
                 OnBackPressed();
             };
 
-            ActionBar.Title = "Employment";
+            ActionBar.Title = "Education";
             ActionBar.SetDisplayHomeAsUpEnabled(true);
 
             var list = FindViewById<ListView>(Resource.Id.EmploymentList);
