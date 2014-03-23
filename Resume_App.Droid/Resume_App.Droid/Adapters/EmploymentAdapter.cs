@@ -34,13 +34,13 @@ namespace Resume_App.Droid.Adapters
             var item = _employers[position];
 
             var image = convertView.FindViewById<ImageView>(Resource.Id.EmployerItemImage);
-            image.SetImageDrawable(Context.Resources.GetDrawable( Context.Resources.GetIdentifier(item.Name, "drawable", Context.PackageName)));
+            image.SetImageDrawable( Context.Resources.GetDrawable(item.IconPath) );
 
             var line1 = convertView.FindViewById<TextView>(Resource.Id.EmployerItemLine1);
             line1.Text = item.DateWorked + ": " + item.Title;
 
             var line2 = convertView.FindViewById<TextView>(Resource.Id.EmployerItemLine2);
-            line2.Text = item.Name + " -- " + item.Location;
+            line2.Text = item.Name + " — " + item.Location;
 
             return convertView;
         }

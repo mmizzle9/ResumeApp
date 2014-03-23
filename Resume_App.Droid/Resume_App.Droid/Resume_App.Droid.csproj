@@ -57,8 +57,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapters\EducationAdapter.cs" />
     <Compile Include="Adapters\EmploymentAdapter.cs" />
     <Compile Include="DataModel\Employer.cs" />
+    <Compile Include="DataModel\School.cs" />
+    <Compile Include="EducationActivity.cs" />
     <Compile Include="EmploymentActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -77,9 +80,13 @@
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
     <AndroidAsset Include="Assets\PlaceholderIcon.png" />
-    <AndroidAsset Include="Resources\Drawable\PlaceholderIcon.png" />
+    <AndroidResource Include="Resources\Drawable\PlaceholderIcon.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\Layout\EducationItem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\Employment.axml">
       <SubType>AndroidResource</SubType>
