@@ -31,7 +31,10 @@ namespace Resume_App.Droid
             var list = FindViewById<ListView>(Resource.Id.EmploymentList);
 
             ActionBar.Title = "Experience";
+            list.Adapter = new ArrayAdapter<string>(this, Resource.Layout.ListItem, ResumeInfo.Experience);
+
             ActionBar.SetDisplayHomeAsUpEnabled(true);
+            ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
 
             Android.App.ActionBar.Tab tab;
             tab = ActionBar.NewTab();
@@ -39,7 +42,7 @@ namespace Resume_App.Droid
             tab.TabSelected += delegate
             {
                 ActionBar.Title = "Experience";
-                list.Adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, ResumeInfo.Experience);
+                list.Adapter = new ArrayAdapter<string>(this, Resource.Layout.ListItem, ResumeInfo.Experience);
             };
             ActionBar.AddTab(tab, true);
 
@@ -48,10 +51,9 @@ namespace Resume_App.Droid
             tab.TabSelected += delegate
             {
                 ActionBar.Title = "Tools";
-                list.Adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, ResumeInfo.Tools);
+                list.Adapter = new ArrayAdapter<string>(this, Resource.Layout.ListItem, ResumeInfo.Tools);
             };
             ActionBar.AddTab(tab, false);
-
         }
     }
 }

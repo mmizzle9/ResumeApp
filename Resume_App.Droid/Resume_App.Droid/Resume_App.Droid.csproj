@@ -58,9 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\LanguagesActivity.cs" />
+    <Compile Include="Activities\ProjectActivity.cs" />
     <Compile Include="Adapters\EducationAdapter.cs" />
     <Compile Include="Adapters\EmploymentAdapter.cs" />
+    <Compile Include="Adapters\ProjectAdapter.cs" />
     <Compile Include="DataModel\Employer.cs" />
+    <Compile Include="DataModel\Project.cs" />
     <Compile Include="DataModel\School.cs" />
     <Compile Include="Activities\EducationActivity.cs" />
     <Compile Include="Activities\EmploymentActivity.cs" />
@@ -95,6 +98,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\EmploymentItem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Layout\ListItem.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

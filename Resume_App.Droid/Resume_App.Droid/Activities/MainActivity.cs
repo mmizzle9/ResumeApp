@@ -38,6 +38,11 @@ namespace Resume_App.Droid
             {
                 StartActivity(typeof(LanguagesActivity));
             };
+
+            var projects = FindViewById<Button>(Resource.Id.MainProjects);
+            {
+                StartActivity(typeof(ProjectActivity));
+            };
         }
     }
 }

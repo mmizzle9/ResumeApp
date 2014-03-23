@@ -67,7 +67,8 @@ namespace Resume_App.Droid
             "C#",
             "Java",
             "Android",
-            "iOS / WPF Application Development",
+            "iOS",
+            "Windows Presentation Forms (WPF)",
             "UI Design",
             "SQLite",
             "Linq",
@@ -91,6 +92,16 @@ namespace Resume_App.Droid
             "SQL Expert Professional",
             "Github",
             "SVN",
+        };
+
+        public static List<Project> Projects = new List<Project>
+        {
+            new Project
+            {
+                Name = "****",
+                Description = "Developed windows application for local manufacturing facility",
+                Icon = Resource.Drawable.PlaceholderIcon,
+            }
         };
     }
 }
