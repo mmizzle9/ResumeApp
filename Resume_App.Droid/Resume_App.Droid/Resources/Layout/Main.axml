@@ -50,6 +50,7 @@
         android:layout_marginTop="10dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:background="@drawable/Button"
         android:textColor="@android:color/black"
         android:textSize="16dp"
         android:text="Education" />
@@ -62,21 +63,10 @@
         android:layout_marginTop="10dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:background="@drawable/Button"
         android:textColor="@android:color/black"
         android:textSize="16dp"
         android:text="Employment" />
-    <Button
-        android:id="@+id/MainLanguages"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginRight="35dp"
-        android:layout_marginTop="10dp"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:textColor="@android:color/black"
-        android:textSize="16dp"
-        android:text="Languages and Tools" />
     <Button
         android:id="@+id/MainProjects"
         android:layout_width="fill_parent"
@@ -86,9 +76,24 @@
         android:layout_marginTop="10dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:background="@drawable/Button"
         android:textColor="@android:color/black"
         android:textSize="16dp"
         android:text="Projects" />
+    <Button
+        android:id="@+id/MainLanguages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/Button"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:text="Experience" />
+<!--
     <Button
         android:id="@+id/MainHighlights"
         android:layout_width="fill_parent"
@@ -98,7 +103,8 @@
         android:layout_marginTop="10dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:background="@drawable/Button"
         android:textColor="@android:color/black"
         android:textSize="16dp"
-        android:text="Highlights" />
+        android:text="Highlights" />-->
 </LinearLayout>

@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Resume_App.Droid</RootNamespace>
-    <AssemblyName>Resume_App.Droid</AssemblyName>
+    <AssemblyName>My Resume</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -18,7 +18,7 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <AndroidUseLatestPlatformSdk />
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <AndroidSupportedAbis>armeabi%3barmeabi-v7a%3bx86</AndroidSupportedAbis>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <JavaMaximumHeapSize />
@@ -47,6 +47,9 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -79,9 +82,6 @@
     <AndroidResource Include="Resources\Values\Strings.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Drawable\Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\Drawable\MicroBudget.png" />
     <AndroidResource Include="Resources\Drawable\Wku.jpg" />
@@ -90,6 +90,15 @@
     <AndroidResource Include="Resources\Drawable\Shogun.png" />
     <AndroidResource Include="Resources\Drawable\Tow.jpg" />
     <AndroidResource Include="Resources\Drawable\Placeholder.png" />
+    <AndroidResource Include="Resources\Drawable\Dexter.jpg" />
+    <AndroidResource Include="Resources\Drawable\FieldService.png" />
+    <AndroidResource Include="Resources\Drawable\Episodes.jpg" />
+    <AndroidResource Include="Resources\Drawable\Epic.jpg" />
+    <AndroidResource Include="Resources\Drawable\CheerSocial.png" />
+    <AndroidResource Include="Resources\Drawable\Battlepillars.jpg" />
+    <AndroidResource Include="Resources\Drawable\ThinkAgain.jpg" />
+    <AndroidResource Include="Resources\Drawable\Icon.png" />
+    <AndroidResource Include="Resources\Drawable\Button.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\EducationItem.axml">

@@ -45,28 +45,52 @@ namespace Resume_App.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int GattonAcademy = 2130837504;
+			public const int Battlepillars = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Hitcents = 2130837505;
+			public const int Button = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Icon = 2130837506;
+			public const int CheerSocial = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int MicroBudget = 2130837507;
+			public const int Dexter = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int Placeholder = 2130837508;
+			public const int Epic = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int Shogun = 2130837509;
+			public const int Episodes = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int Tow = 2130837510;
+			public const int FieldService = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int Wku = 2130837511;
+			public const int GattonAcademy = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int Hitcents = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int Icon = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int MicroBudget = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int Placeholder = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int Shogun = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int ThinkAgain = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int Tow = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int Wku = 2130837519;
 			
 			static Drawable()
 			{
@@ -108,14 +132,11 @@ namespace Resume_App.Droid
 			// aapt resource value: 0x7f050008
 			public const int MainEmployment = 2131034120;
 			
-			// aapt resource value: 0x7f05000b
-			public const int MainHighlights = 2131034123;
+			// aapt resource value: 0x7f05000a
+			public const int MainLanguages = 2131034122;
 			
 			// aapt resource value: 0x7f050009
-			public const int MainLanguages = 2131034121;
-			
-			// aapt resource value: 0x7f05000a
-			public const int MainProjects = 2131034122;
+			public const int MainProjects = 2131034121;
 			
 			static Id()
 			{

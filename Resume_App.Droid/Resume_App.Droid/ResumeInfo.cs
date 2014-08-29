@@ -112,43 +112,43 @@ namespace Resume_App.Droid
             {
                 Name = "Cheer Social",
                 Description = "Developed api and backend for social networking application with Facebook and Twitter integration",
-                Icon = Resource.Drawable.PlaceholderIcon,
+                Icon = Resource.Drawable.CheerSocial,
             },
             new Project
             {
                 Name = "Battlepillars",
                 Description = "Built multiplayer gaming client using Google Play Services and integrated apis such as Facebook and Twitter",
-                Icon = Resource.Drawable.PlaceholderIcon,
+                Icon = Resource.Drawable.Battlepillars,
             },
             new Project
             {
                 Name = "Think Again",
                 Description = "Built mobile game with native Android UI",
-                Icon = Resource.Drawable.PlaceholderIcon,
+                Icon = Resource.Drawable.ThinkAgain,
             },
             new Project
             {
                 Name = "Draw a Stickman Epic",
                 Description = "Testing, localization, and bug fixes for the popular mobile and PC game",
-                Icon = Resource.Drawable.PlaceholderIcon,
+                Icon = Resource.Drawable.Epic,
             },
             new Project
             {
                 Name = "Draw a Stickman Episodes",
                 Description = "Developed native mobile port of the viral webpage drawastickman.com/",
-                Icon = Resource.Drawable.PlaceholderIcon,
+                Icon = Resource.Drawable.Episodes,
             },
             new Project
             {
                 Name = "Xamarin Field Service",
                 Description = "Testing and bug fixes to Xamarin’s showcase app for monodroid and monotouch software",
-                Icon = Resource.Drawable.PlaceholderIcon,
+                Icon = Resource.Drawable.FieldService,
             },
             new Project
             {
                 Name = "Dexter",
                 Description = "Port of popular android app for iOS",
-                Icon = Resource.Drawable.PlaceholderIcon,
+                Icon = Resource.Drawable.Dexter,
             },
             new Project
             {

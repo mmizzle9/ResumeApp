@@ -40,6 +40,7 @@ namespace Resume_App.Droid
             };
 
             var projects = FindViewById<Button>(Resource.Id.MainProjects);
+            projects.Click += delegate
             {
                 StartActivity(typeof(ProjectActivity));
             };
